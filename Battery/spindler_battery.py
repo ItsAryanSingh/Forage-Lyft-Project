@@ -1,6 +1,6 @@
 from Battery.battery import Battery
 
-SpindlerBatteryLife = 2
+SpindlerBatteryLife = 3
 
 class SpindlerBattery(Battery):
     def __init__(self, current_date, last_service_date):
