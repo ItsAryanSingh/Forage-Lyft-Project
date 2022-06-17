@@ -1,12 +1,6 @@
 import unittest
 from datetime import datetime
 
-from model import Calliope
-from model import Glissade
-from model import Palindrome
-from model import Rorschach
-from model import Thovex
-
 
 class TestCalliope(unittest.TestCase):
     def test_battery_should_be_serviced(self):
